@@ -16,8 +16,6 @@
   
   <distributionManagement>
                                 <repository>
-                                                <id>jpn</id>
-                                                <name>jpn-releases</name>
                                                 <url>http://localhost:8081/artifactory/libs-release</url>
                                 </repository>
   </distributionManagement>
