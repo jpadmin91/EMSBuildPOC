@@ -14,15 +14,17 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
-  <distributionManagement>
+ <!-- <distributionManagement>
                                 <repository>
+                                	        <id>admin</id>
+                                                <name>admin-releases</name>
                                                 <url>http://localhost:8081/artifactory/libs-release</url>
                                 </repository>
-  </distributionManagement>
+  </distributionManagement>-->
   
   
   
-   <repositories>
+ <!--  <repositories>
         <repository>
           <snapshots>
             <enabled>false</enabled>
@@ -37,9 +39,9 @@
           <name>libs-snapshot</name>
           <url>http://localhost:8081/artifactory/libs-snapshot</url>
         </repository>
-  </repositories>
+  </repositories>-->
   
-  <pluginRepositories>
+  <!--<pluginRepositories>
         <pluginRepository>
           <snapshots>
             <enabled>false</enabled>
@@ -54,7 +56,7 @@
           <name>plugins-snapshot</name>
           <url>http://localhost:8081/artifactory/plugins-snapshot</url>
         </pluginRepository>
-  </pluginRepositories>
+  </pluginRepositories>-->
   
   
 
